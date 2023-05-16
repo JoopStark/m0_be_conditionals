@@ -34,15 +34,19 @@ puts "Teachers and students quanties are not equal. #{number_teachers != number_
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "There are at least 20 students. #{number_students >= 20}"
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "There are at least 21 students. #{number_students >= 21}"
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "There are no more than 20 students. #{number_students <= 20}"
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "There are no more than 21 students. #{number_students <= 21}"
 # this should print: true
 
 
