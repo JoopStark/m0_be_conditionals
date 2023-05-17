@@ -119,6 +119,7 @@ puts loves_to_play && loves_dog_park
 puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age <= 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: The final code evaluated to 'true' (i.e a playful puppy) as the dog loves to play and is 1 year or younger.
