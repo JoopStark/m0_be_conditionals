@@ -62,23 +62,32 @@ puts "There are no more than 21 students. #{number_students <= 21}"
 puts 4 < 9
 #YOU DO: Explain.
 # This line of code will compare the integers '4' and '9' using the comparison operator 'less than'. The code wants to know if it is true or false that '4 is less than 9'. 
-# The puts 'puts' command will make the answer in terminal. The answer will be the boolean respond of 'true' (out of the two possible boolean responses 'true' and 'false')
+# The 'puts' command will make the answer in terminal and move to the next line. The answer will be the boolean respond of 'true' (out of the two possible boolean responses 'true' and 'false')
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
 # This line of code will compare an integer '4' to a variable (a piece of code that is assiged a value that can change). The value of the variable is the integer '4'. 
+# The code is asking if '4 is less than books(i.e. 3)'. The puts 'puts' command will make the answer in terminal and move to the next line. 
+# The answer will be the boolean respond of 'false' (out of the two possible boolean responses 'true' and 'false').
+#
+
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This line of code will compare two varibles (a piece of code that is assiged a value that can change). The varibles are 'friends' and 'siblings' with values of intergers at '6' and '2' respectively.
+# The code is asking if 'there are more friends than siblings'
+#The 'puts' command will make the answer in terminal and move to the next line. The answer will be the boolean respond of 'true' (out of the two possible boolean responses 'true' and 'false')
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# This line of code will compare two varibles (a piece of code that is assiged a value that can change). The varibles are 'attendees' and 'meals' with values of intergers at '9' and '8' respectively.
+# The code is asking if 'attendees and meals are different'
+# The 'puts' command will make the answer in terminal and move to the next line. The answer will be the boolean respond of 'true' (out of the two possible boolean responses 'true' and 'false')
 
 #-------------------
 # PART 3: Logical Operators
@@ -100,13 +109,14 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+puts loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 
